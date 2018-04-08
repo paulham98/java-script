@@ -4,7 +4,7 @@ const students = [
     {name: 'minsup', age: 35, score: 76 },
 ];
 
-function getDegeree(score) {
+function getDegree(score) {
     if (score >= 90) {
         return'A';
     } else if (score >= 80) {
@@ -16,6 +16,6 @@ function getDegeree(score) {
 }
 
 students.forEach((student) => {
-    const result = 'name: ${student.name}, score: ${getDegree(student.score)}';
+    const result = name: ${student.name}, score: ${getDegree(student.score)}';
     console.log(result);
 });
