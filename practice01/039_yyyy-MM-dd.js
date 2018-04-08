@@ -1,9 +1,9 @@
 const getYymmdd = (date) => {
     const yyyy = date.getFullYear();
-    const mm = date.getMonth() < 9 ? '0${date.getMonth() + 1}' : (date.
+    const mm = date.getMonth() < 9 ? `0${date.getMonth() + 1}` : (date.
 getMonth() + 1);
-    const dd = date.getDate() < 10 ? '0${date.getDate()}' : date.getDate();
-    return '${yyyy}-${mm}-${dd}';
+    const dd = date.getDate() < 10 ? `0${date.getDate()}` : date.getDate();
+    return `${yyyy}-${mm}-${dd}`;
 };
 
 const yymmdd = getYymmdd(new Date());
