@@ -16,6 +16,6 @@ function getDegree(score) {
 }
 
 students.forEach((student) => {
-    const result = name: ${student.name}, score: ${getDegree(student.score)}';
+    const result = `name: ${student.name}, score: ${getDegree(student.score)}`;
     console.log(result);
 });
